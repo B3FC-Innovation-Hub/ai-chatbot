@@ -1,0 +1,35 @@
+.list-item-container {
+  display: flex;
+  background-color: #c6f8f6d7;
+  border-radius: 20px;
+  margin: 8px;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+
+  .avatar {
+    border-radius: 50%;
+    display: flex;
+    margin: 20px;
+    width: 60px;
+    background-color: #ffaebc;
+    justify-content: center;
+    .avatar-image {
+      height: 60px;
+      width: 60px;
+      background-image: url("./../../assets/pngwing.com.png");
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+  }
+
+  .message-container {
+    display: flex;
+
+    .message {
+      font-family: sans-serif;
+      font-weight: lighter;
+      font-size: 14px;
+    }
+  }
+}
