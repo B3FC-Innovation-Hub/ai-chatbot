@@ -7,6 +7,7 @@ src/env
 /tmp
 /out-tsc
 /bazel-out
+src/env
 
 # Node
 /node_modules
@@ -24,7 +25,6 @@ yarn-error.log
 
 # Visual Studio Code
 .vscode/*
-.vscode
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
