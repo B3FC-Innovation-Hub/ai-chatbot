@@ -1,8 +1,7 @@
 <div class="container">
   <ng-container *ngFor="let item of chat$ | async">
-    <!-- <app-chat-list-item [message]="item"></app-chat-list-item> -->
+  <app-chat-list-item [message]="item"></app-chat-list-item>
   </ng-container>
-  <app-chat-list-item></app-chat-list-item>
   <div class="user-actions">
     <div class="input-container">
       <textarea
