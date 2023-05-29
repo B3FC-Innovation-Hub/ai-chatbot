@@ -1,5 +1,8 @@
 # Chatboy
 
+palun: this is the the frontend for the intended B3FC ChatGPT implementation. It will be hosted on Azure. Inlitially it will run only as a frontend and connect directly to OpenAI (and you will need to provide your own API key). In the future it will work with a corresponding backend.
+
+
 # Chatbot Documentation
 
 This documentation provides an overview of the Chatboy project, which is an Angular-based chatbot application that utilizes the OpenAI API, RxJS, and SCSS. For this project, we'll be using the MVC (
