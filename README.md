@@ -2,6 +2,10 @@
 
 palun: this is the the frontend for the intended B3FC ChatGPT implementation. It will be hosted on Azure. Inlitially it will run only as a frontend and connect directly to OpenAI (and you will need to provide your own API key). In the future it will work with a corresponding backend.
 
+It is part of the chat project:
+ - Frontend: this
+ - OpenAI interface: [gpt-chat](https://github.com/B3FC-Innovation-Hub/gpt-chat)
+ - Backend: TBD
 
 # Chatbot Documentation
 
