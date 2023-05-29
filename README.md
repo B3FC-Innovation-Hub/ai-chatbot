@@ -1,13 +1,13 @@
-# Chatboy
+# Chatboi
 
 palun: this is the the frontend for the intended B3FC ChatGPT implementation. It will be hosted on Azure. Inlitially it will run only as a frontend and connect directly to OpenAI (and you will need to provide your own API key). In the future it will work with a corresponding backend.
 
-It is part of the chat project:
+It is part of the [chat](https://github.com/orgs/B3FC-Innovation-Hub/projects/3) project:
  - Frontend: this
  - OpenAI interface: [gpt-chat](https://github.com/B3FC-Innovation-Hub/gpt-chat)
  - Backend: TBD
 
-# Chatbot Documentation
+## About
 
 This documentation provides an overview of the Chatboy project, which is an Angular-based chatbot application that utilizes the OpenAI API, RxJS, and SCSS. For this project, we'll be using the MVC (
 Model-View-Controller) structural design pattern which separates the application logic into three interconnected components: the Model, the View, and the Controller. The Model represents the data, the View is responsible for displaying the data, and the Controller handles the interactions between the Model and the View. This will allow us to have a codebase that is easy to read and maintain.
